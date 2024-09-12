@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C__Core.OOP.Polymorphism
+namespace C__Core.OOP.Constructor_Polymorphism.Polymorphism
 {
-	public interface IOutfit
-	{
-		void Wear();
-	}
+    public interface IOutfit
+    {
+        void Wear();
+    }
 }
