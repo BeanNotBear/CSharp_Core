@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace C__Core.OOP.Constructor_Polymorphism.Constructors
 {
-    public class Car
+    public class Vehicle
     {
         public string Model { get; set; }
         public string Color { get; set; }
         public int Year { get; set; }
 
         // Create a class constructor with non parameters
-        public Car()
+        public Vehicle()
         {
             Model = "Ford Mustang";
             Color = "Red";
@@ -23,7 +23,7 @@ namespace C__Core.OOP.Constructor_Polymorphism.Constructors
         }
 
         // Create a class constructor with multiple parameters
-        public Car(string model, string color)
+        public Vehicle(string model, string color)
         {
             Model = model;
             Color = color;
@@ -31,7 +31,7 @@ namespace C__Core.OOP.Constructor_Polymorphism.Constructors
         }
 
         // Create a class constructor with full parameters
-        public Car(string model, string color, int year)
+        public Vehicle(string model, string color, int year)
         {
             Model = model;
             Color = color;
