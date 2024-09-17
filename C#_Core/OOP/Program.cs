@@ -2,6 +2,7 @@
 using C__Core.OOP.Constructor_Polymorphism.Constructors;
 using C__Core.OOP.Constructor_Polymorphism.Polymorphism;
 using C__Core.OOP.Constructor_Polymorphism.Polymorphism.Outfits;
+using C__Core.OOP.Inheritance;
 using DemoPresent;
 
 namespace C__Core.OOP
@@ -14,7 +15,14 @@ namespace C__Core.OOP
 			Console.WriteLine("2: Demo Polymorphism.");
 			Console.WriteLine("3: Demo Class and Encapsulattion.");
 			Console.WriteLine("4: Demo Abstract");
+			Console.WriteLine("5: Demo Inheritance");
 			Console.WriteLine("Anykey: Exit.");
+		}
+
+		static void DemoInheritance()
+		{
+			Cat c = new Cat();
+			c.ShowLegs();
 		}
 
 		static void DemoAbsttract()
@@ -110,6 +118,9 @@ namespace C__Core.OOP
 						break;
 					case "4":
 						DemoAbsttract();
+						break;
+					case "5":
+						DemoInheritance();
 						break;
 					default:
 						return;
